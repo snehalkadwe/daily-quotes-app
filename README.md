@@ -25,7 +25,7 @@ You can publish the configuration file using this command:
 ```bash
 php artisan vendor:publish --tag="novu-laravel-config"
 ```
-A configuration file named 'novu` is created in config directory
+A configuration file named `novu` is created in config directory
 
 ### API Keys
 Open your `.env` file and add your API Key.
@@ -38,14 +38,14 @@ NOVU_API_KEY=xxxxxxxxxxxxx
 ## Setup Workflow in Novu Dashboard
 (**Note:** If you are not familiar with Novu and creation of workflows in Novu Dashboard please refer these blogs)
 - **[Simplify Communication with NOVU: A Developer's Guide](https://vehikl.com/](https://dev.to/snehalkadwe/simplify-communication-with-novu-a-developers-guide-5e8d)https://dev.to/snehalkadwe/simplify-communication-with-novu-a-developers-guide-5e8d)**
-- **[Implementing Novu Notifications with Laravel: A Step-by-Step Guide](https://tighten.co)**
+- **[Implementing Novu Notifications with Laravel: A Step-by-Step Guide](https://tighten.co](https://dev.to/snehalkadwe/implementing-novu-notifications-with-laravel-a-step-by-step-guide-3fni)**
 
  ### Required Workflow
 - **Workflow 1:** for subscribed user -- select only Email channel - provide all required details <br>
 - **Workflow 2:** for admin -- select Email, SMS channels (used to notify admin of newly subscribed user) <br>
 - **Workflow 3:** for subscribed user -- select Email channel (used to send daily quotes to the user's email address) <br>
 
-
-
-
-
+To run command in local enviornment using job run this command
+```bash
+php artisan queue:work
+```
