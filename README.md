@@ -38,7 +38,7 @@ NOVU_API_KEY=xxxxxxxxxxxxx
 ## Setup Workflow in Novu Dashboard
 (**Note:** If you are not familiar with Novu and creation of workflows in Novu Dashboard please refer these blogs)
 - **[Simplify Communication with NOVU: A Developer's Guide](https://vehikl.com/](https://dev.to/snehalkadwe/simplify-communication-with-novu-a-developers-guide-5e8d)https://dev.to/snehalkadwe/simplify-communication-with-novu-a-developers-guide-5e8d)**
-- **[Implementing Novu Notifications with Laravel: A Step-by-Step Guide](https://tighten.co](https://dev.to/snehalkadwe/implementing-novu-notifications-with-laravel-a-step-by-step-guide-3fni)**
+- **[Implementing Novu Notifications with Laravel: A Step-by-Step Guide](https://dev.to/snehalkadwe/implementing-novu-notifications-with-laravel-a-step-by-step-guide-3fni)**
 
  ### Required Workflow
 - **Workflow 1:** for subscribed user -- select only Email channel - provide all required details <br>
