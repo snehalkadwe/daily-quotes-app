@@ -45,6 +45,8 @@ NOVU_API_KEY=xxxxxxxxxxxxx
 - **Workflow 2:** for admin -- select Email, SMS channels (used to notify admin of newly subscribed user) <br>
 - **Workflow 3:** for subscribed user -- select Email channel (used to send daily quotes to the user's email address) <br>
 
+To get random quote we are using [dummyjson.com](https://dummyjson.com/quotes/random), to make a request to `dummyjson` we are using Laravel's `Http Client`
+
 To run command in local enviornment using job run this command
 ```bash
 php artisan queue:work
