@@ -37,12 +37,13 @@ NOVU_API_KEY=xxxxxxxxxxxxx
 
 ## Setup Workflow in Novu Dashboard
 (**Note:** If you are not familiar with Novu and creation of workflows in Novu Dashboard please refer these blogs)
-- **[Simplify Communication with NOVU: A Developer's Guide]([https://vehikl.com/](https://dev.to/snehalkadwe/simplify-communication-with-novu-a-developers-guide-5e8d)https://dev.to/snehalkadwe/simplify-communication-with-novu-a-developers-guide-5e8d)**
+- **[Simplify Communication with NOVU: A Developer's Guide](https://vehikl.com/](https://dev.to/snehalkadwe/simplify-communication-with-novu-a-developers-guide-5e8d)https://dev.to/snehalkadwe/simplify-communication-with-novu-a-developers-guide-5e8d)**
 - **[Implementing Novu Notifications with Laravel: A Step-by-Step Guide](https://tighten.co)**
- 
-**Workflow 1:** for subscribed user -- select only Email channel - provide all required details
-**Workflow 2:** for admin -- select Email, SMS channels (used to notify admin of newly subscribed user)
-**Workflow 3:** for subscribed user -- select Email channel (used to send daily quotes to the user's email address)
+
+ ### Required Workflow
+- **Workflow 1:** for subscribed user -- select only Email channel - provide all required details <br>
+- **Workflow 2:** for admin -- select Email, SMS channels (used to notify admin of newly subscribed user) <br>
+- **Workflow 3:** for subscribed user -- select Email channel (used to send daily quotes to the user's email address) <br>
 
 
 
