@@ -14,7 +14,8 @@ class SubscriptionController extends Controller
         $request->validate([
             'email' => 'required|email|unique:subscriptions,email'
         ]);
-       
+
+
         //  store user
         $userSubscription = Subscription::create([
             'email' => $request->email
@@ -25,7 +26,6 @@ class SubscriptionController extends Controller
             // event listening to newly registed email
             event(new NewUserSubscribed($request->email));
             return redirect()->back()->with('success', 'Subscribed successfully!');
-            
         }
         return redirect()->back()->with('error', 'You are not subscribed');
     }
